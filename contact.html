@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>FirePro</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/fire-extinguisher.png">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+<!-- Navbar & Hero Start -->
+<div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light"> 
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="text-primary mb-9"><img src="img/firepro_logo_app.jpg" alt="FirePro Icon" height="50"> FirePro</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-0 mx-lg-auto">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="products.html" class="nav-item nav-link">Products</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+            
+                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                    <!-- <div class="nav-btn px-3">
+                        <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                        <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a Quote</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="d-none d-xl-flex flex-shrink-0 ps-4">
+                <a href="#" class="btn btn-light btn-lg-square rounded-circle position-relative wow tada" data-wow-delay=".9s">
+                    <i class="fa fa-phone-alt fa-2x"></i>
+                    <div class="position-absolute" style="top: 7px; right: 12px;">
+                        <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                    </div>
+                </a>
+                <div class="d-flex flex-column ms-3">
+                    <span>Call to Our Experts</span>
+                    <a href="tel:+212 522601427"><span class="text-dark">LandLine: +212 (0) 5 22 60 14 27</span></a>
+                    <a href="tel:+212 613870065"><span class="text-dark">GSM: +212 (0) 6 13 87 00 65</span></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h4>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-fluid contact bg-light py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Contact Us</h4>
+                    <h1 class="display-4 mb-4">If you have any comments please apply now</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="contact-img d-flex justify-content-center" >
+                            <div class="contact-img-inner">
+                                <img src="img/contactus_transparent.png" class="img-fluid w-100"  alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
+                        <div>
+                            <div id="alert" class="alert" role="alert" style="display: none;">fkekekdk,d</div>
+                            <h4 class="text-primary">Send Your Message</h4>
+                            <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
+                           <!-- HTML Form -->
+                           <form id="contact-form" action="php_codes/contact-form.php" method="post">
+                            <div class="row g-3">
+                              <div class="col-lg-12 col-xl-6">
+                                <div class="form-floating">
+                                  <input type="text" class="form-control border-0" id="name" name="name" placeholder="Your Name">
+                                  <label for="name">Your Name</label>
+                                </div>
+                              </div>
+                              <div class="col-lg-12 col-xl-6">
+                                <div class="form-floating">
+                                  <input type="email" class="form-control border-0" id="email" name="email" placeholder="Your Email">
+                                  <label for="email">Your Email</label>
+                                </div>
+                              </div>
+                              <div class="col-12 ">
+                                <div class="form-floating">
+                                  <input type="phone" class="form-control border-0" id="phone" name="phone" placeholder="Phone">
+                                  <label for="phone">Your Phone</label>
+                                </div>
+                              </div>
+                              <div class="col-12">
+                                <div class="form-floating">
+                                  <input type="text" class="form-control border-0" id="subject" name="subject" placeholder="Subject">
+                                  <label for="subject">Subject</label>
+                                </div>
+                              </div>
+                              <div class="col-12">
+                                <div class="form-floating">
+                                  <textarea class="form-control border-0" placeholder="Leave a message here" id="message" name="message" style="height: 120px"></textarea>
+                                  <label for="message">Message</label>
+                                </div>
+                          
+                              </div>
+                              <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit" name="submit">Send Message</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <div class="row g-3">
+                                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="contact-add-item">
+                                        <div class="contact-icon text-primary mb-4">
+                                            <i class="fas fa-map-marker-alt fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <h4>Address</h4>
+                                            <p class="mb-0">25 Rue Aimé Feraud, Casablanca 20320,Morocco</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="contact-add-item">
+                                        <div class="contact-icon text-primary mb-4">
+                                            <i class="fas fa-envelope fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <h4>Mail Us</h4>
+                                            <p class="mb-0">info@firepromaroc.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                                    <div class="contact-add-item">
+                                        <div class="contact-icon text-primary mb-4">
+                                            <i class="fa fa-phone-alt fa-2x"></i>
+                                        </div>
+                                        <div>
+                                            <h4>Telephone</h4>
+                                            <a href="tel:+212 522601427"><span class="text-dark">LandLine: +212 (0) 5 22 60 14 27</span></a>
+                            <a href="tel:+212 613870065"><span class="text-dark">GSM: +212 (0) 6 13 87 00 65</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
+                        <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=25%20Rue%20Aim%C3%A9%20Feraud,%20Casablanca%2020320+(FireProMaroc)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-end mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>FirePro Maroc</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start text-body">
+                        Designed By <a class="border-bottom text-white" href="#">Souha Abouchikh</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+            // Function to get URL parameters
+            function getQueryParams() {
+              const params = {};
+              const queryString = window.location.search.substring(1);
+              const urlParams = new URLSearchParams(queryString);
+        
+              for (const [key, value] of urlParams.entries()) {
+                params[key] = value;
+              }
+              return params;
+            }
+        
+            // Show alert based on URL parameters
+            const params = getQueryParams();
+            const alertDiv = document.getElementById('alert');
+        
+            if (params.status) {
+              if (params.status === 'success') {
+                alertDiv.classList.add('alert-success');
+                alertDiv.innerHTML = 'Form submitted successfully.';
+              } else if (params.status === 'error') {
+                alertDiv.classList.add('alert-danger');
+                alertDiv.innerHTML = 'Error: ' + (params.message || 'An error occurred.');
+              } else if (params.status === 'no_data') {
+                alertDiv.classList.add('alert-danger');
+                alertDiv.innerHTML = 'No data received.';
+              }
+              alertDiv.style.display = 'block';
+        
+              // Hide the alert after 5 seconds
+              setTimeout(function() {
+                alertDiv.style.display = 'none';
+              }, 8000);
+            }
+          </script>
+    </body>
+
+</html>
